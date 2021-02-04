@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*font-family: 'Oswald', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Cormorant', serif;*/
+#main {
+    background-color: #ABB2B9;
+}
+
+#title {
+    text-align: center;
+    padding: 30px 15px;
+    line-height: 2rem;
+}
+
+#title h1 {
+    color: #f3dd70;
+    font-family: 'Cormorant', serif;
+    font-weight: 700;
+    padding: 30px 15px;
+}
+
+#img-div {
+    text-align: center;
+    padding: 25px 40px;
+    margin: 0px 35px;
+    background-color: #ffffff;
+}
+
+#image {
+  display: block;
+  max-width: 80%;
+    width: 800px;
+    height: auto;
+    border: 15px solid #949485;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0 auto;
+    
+}
+
+#img-caption {
+    font-size: 1rem;
+    font-stretch: semi-condensed;
+    font-style: oblique;
+}
+
+#tribute-info {
+    text-align: center;
+    padding: 25px;
+}
+
+#tribute-info h2 {
+    padding: 15px 5px;
+    font-family: 'Cormorant', serif;
+}
+.tag-line {
+    font-family: 'Cormorant', serif;
+    font-size: 26px;
+    letter-spacing: 3px;
+}
+
+hr {
+    border: 2px solid black;
+    width: 290px;
+    margin: 0px auto;
+}
+
+#tribute-info h4 {
+    font-size: 24px;
+    font-weight: 400;
+    padding: 15px 5px;
+}
+
+.bio-title {
+    font-size: 22px;
+    font-style: italic;
+    margin: 15px 5px;
+}
+
+.short-bio {
+    display: block;
+    margin: 0px auto;
+    max-width: 480px;
+    font-family: 'Oswald', sans-serif
+}
+
+#tribute-info ul li {
+    text-align: left;
+    list-style-type: none;
+    line-height: 2;
+}
+
+#tribute-info p {
+    line-height: 1.5rem;
+    padding: 15px 5px;
+
+}
+
+#tribute-info blockquote {
+    background-color: floralwhite;
+    font-style: oblique;
+    text-align: right;
+    border-radius: 5px;
+    padding: 15px 50px;
+    max-width: 650px;
+    line-height: 1.2rem;
+    margin: 0px auto;
+}
+
+.main-article {
+    max-width: 650px;
+    margin: 0px auto;
+    font-family: 'Lobster', cursive;
+    font-weight: 300;
+    text-align: justify;
+}
+
+#tribute-info h3 {
+    padding: 25px 5px;
+}
+@media screen and (max-width:480px) {
+    #tribute-info blockquote {
+        text-align: center;
+        padding: 15px;
+    }
+    #img-div {
+        padding: 10px;
+        
+    }
+    #image {
+        border: 5px solid #949485;
+        max-width: 100%;
+    }
+    #img-caption {
+        font-size:.8rem;
+    }
+}
